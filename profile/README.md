@@ -10,11 +10,11 @@ The station that runs on their machine is published source, so the thing they ar
 
 | | |
 |---|---|
-| [heliograph](https://github.com/dbhq-uk/heliograph) | the CLI, the station, the transports, the MCP server and the agent skill |
-| [heliograph-relay](https://github.com/dbhq-uk/heliograph-relay) | the relay: stores and forwards sealed messages, and holds no payload private key |
+| [heliograph](https://github.com/heliograph-io/heliograph) | the CLI, the station, the transports, the MCP server and the agent skill |
+| [heliograph-relay](https://github.com/heliograph-io/heliograph-relay) | the relay: stores and forwards sealed messages, and holds no payload private key |
 | [heliograph-cloud-docs](https://github.com/heliograph-io/heliograph-cloud-docs) | documentation for the hosted service |
 
-Documentation is at [docs.heliograph.io](https://docs.heliograph.io) and the licensing boundary is at [heliograph.io](https://heliograph.io).
+Documentation is at [docs.heliograph.io](https://docs.heliograph.io) and the licensing boundary is at [docs.heliograph.io/licence](https://docs.heliograph.io/licence).
 
 ### Three things, and they are not the same thing
 
@@ -24,9 +24,13 @@ The relay is one to one, carries every message shape, and is always self-hostabl
 
 ### Licensing
 
-Both open repositories are MIT today. They **will move** to Apache 2.0 for the project and FSL-1.1-ALv2 for the relay, converting to Apache 2.0 two years after each release, with the documentation under CC BY 4.0. The announcement will say what changed, what did not, and that the existing MIT commits remain MIT.
+**heliograph** is Apache 2.0, **heliograph-relay** is FSL-1.1-ALv2 converting to Apache 2.0 two years after each release, and the documentation is CC BY 4.0. Applied on 17 September 2026.
 
-Calling the relay open source once it is fair source would be wrong, and calling the broker fair source would be wrong twice over: its source is not published and nothing about it converts on a clock.
+**Every commit published under MIT is still available under MIT, permanently**, and a licence change cannot reach backwards. Fork any of them and MIT is what you have.
+
+Calling the relay open source would be wrong, because fair source is not open source. Calling the broker fair source would be wrong twice over: its source is not published and nothing about it converts on a clock.
+
+The whole statement, including the professional-services grant and why fair source rather than AGPL, is at [docs.heliograph.io/licence](https://docs.heliograph.io/licence).
 
 ### Availability
 
